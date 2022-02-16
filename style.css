@@ -1,0 +1,110 @@
+*{
+    background-color: lightgray;
+}
+
+.header{
+    color: orange;
+    background: green;
+    text-align: right;
+}
+
+.header:hover{
+    color: green;
+    background: orange;
+}
+
+.p1{
+    text-decoration: underline;
+}
+
+.p2{
+    background: plum;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    grid-template-columns: 100px;
+    text-align: center;
+    display: inline-block;
+
+}
+
+.p3{
+    background: rgb(52, 134, 145);
+    color: white;
+    font-size: 18px;
+    padding: 20px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: 100px;
+    display: inline-block;
+}
+
+.p4{
+    background-color: sandybrown;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    display: grid;
+    grid-template-columns: 100px;
+    display: inline-block;
+}
+
+.linktoLinkedIn{
+    text-decoration: none;
+    background-color: honeydew;
+    border-style: dashed;
+    border-color: gold;
+    padding: 10px;
+    border-radius: 25px;
+    text-align: center;
+    display: inline-block;
+}
+
+.linktoLinkedIn:hover{
+    background: aquamarine;
+    border-radius: 0;
+}
+
+a.linktoLinkedIn{
+
+
+}
+/*--
+.action{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: flex;
+    flex-grow: 1;
+    padding:
+    justify-content: center;
+} */
+
+.p2:hover{
+    background: green;
+    cursor: help;
+}
+
+.p3:hover{
+    background: green;
+    cursor: help;
+    font-weight: bold;
+}
+
+.p4:hover{
+    background: green;
+    cursor: help;
+}
+
+.action{
+    text-align: center;
+}
+
+/*
+
+.action{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+*/
