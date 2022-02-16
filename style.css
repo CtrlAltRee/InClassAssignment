@@ -64,10 +64,6 @@
     font-weight: bold;
 }
 
-a.linktoLinkedIn{
-
-
-}
 /*--
 .action{
     margin-left: auto;
@@ -110,3 +106,7 @@ a.linktoLinkedIn{
     align-items: flex-start;
 }
 */
+.container{
+    display: flex;
+    justify-content: center;
+}
