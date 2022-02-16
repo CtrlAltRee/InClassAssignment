@@ -48,7 +48,8 @@
 
 .linktoLinkedIn{
     text-decoration: none;
-    background-color: honeydew;
+    color: white;
+    background-color: salmon;
     border-style: dashed;
     border-color: gold;
     padding: 10px;
@@ -58,8 +59,9 @@
 }
 
 .linktoLinkedIn:hover{
-    background: aquamarine;
+    background: rgb(42, 175, 131);
     border-radius: 0;
+    font-weight: bold;
 }
 
 a.linktoLinkedIn{
